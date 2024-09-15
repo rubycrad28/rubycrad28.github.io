@@ -22,8 +22,13 @@ body > header {
    color: #3F4B3B;
    display: flex;
    height: 10vh;
-   align-items: center;
+   align-items: left;
    justify-content: space-around;
+}
+
+body > a > header > img {
+   width: 8vw;
+   height: 10vh;
 }
 
 #nav-ul {
@@ -94,10 +99,17 @@ body > footer {
    text-decoration: none;
 }
 
-img {
-   border-radius: 50%;
-}
 
 #sign-prompt {
    text-align: center;
+}
+
+#images_purchasing {
+   align-items: center;
+   justify-content: space-around;
+   padding: 5px; 
+}
+
+#social-media {
+   align-items: right;
 }
