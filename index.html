@@ -17,6 +17,7 @@ rel="stylesheet">
             <ul id="nav-ul">
                 <li> <a href="" class="navbutton">Home</a></li>
                 <li> <a href="" class="navbutton">About Us</a></li>
+                <li> <a href="" class="navbutton">Shop</a></li>
                 <li> <a href="" class="navbutton">Contact</a></li>
             </ul>
          </nav>
@@ -68,22 +69,22 @@ rel="stylesheet">
 
             <aside>
                 <section>
-                    <h4>Filter by Month</h4>
+                    <h4>Sort By</h4>
                     <nav>
                         <ul>
-                            <li><a href=""></a>Filter for January</li>
-                            <li><a href=""></a>Filter for February</li>
-                            <li><a href=""></a>Filter for March</li>
+                            <li><a href=""></a>Price (low to high) </li>
+                            <li><a href=""></a>Price (High to low)</li>
+                            <li><a href=""></a>Newest First</li>
                         </ul>
                     </nav>
                 </section>
-                <h4>Filter by Category</h2>
+                <h4>Filter</h4>
                 <nav>
                     <ul>
-                        <li><a href="">Personal</a></li>
-                        <li><a href="">Family</a></li>
-                        <li><a href="">Friends</a></li>
-                        <li><a href="">Work</a></li>
+                        <li><a href="">Occassion</a></li>
+                        <li><a href="">Price</a></li>
+                        <li><a href="">Personalisation</a></li>
+                        <li><a href="">Delivery</a></li>
                     </ul>
                 </nav>
                 <section>
@@ -94,7 +95,8 @@ rel="stylesheet">
         <!-- main content of the website -->
 
         <hr>
-        <h2>Sign up to my newsletter!</h2>
+        <h2>Sign up for first dibs!</h2>
+        <p id="sign-prompt">Subscribe for sales, discounts and exclusive access</p>
         <form action="" method="">
             <label for="first_name">First Name:</label>
             <input type="text" id="first_name" name="first_name" required>
@@ -105,17 +107,14 @@ rel="stylesheet">
             <label for="email">Email:</label>
             <input type="email" name="email" id="email" required> 
             <br>
-            <label for="password">Password:</label>
-            <input type="password" name="password" id="password">
-            <br>
 
-            <label for="Favourite fact">Favourite Fact:</label>
-            <input type="radio" name="favourite_fact" id="i_have_a _cat" value="i_have_a _cat">
-            <label for="i_have_a _cat">I have a Cat</label>
-            <input type="radio" name="favourite_fact" id="My_favourite_colour_is_blue" value="My_favourite_colour_is_blue">
-            <label for="My_favourite_colour_is_blue">My favourite colour is blue</label>
-            <input type="radio" name="favourite_fact" id="I_hate_the_sea" value="I_hate_the_sea">
-            <label for="I_hate_the_sea">I hate the sea</label>
+            <label for="Subscirbe_For">Subscribe For:</label>
+            <input type="radio" name="Subscirbe_For" id="Sales" value="Sales">
+            <label for="Sales">Sales</label>
+            <input type="radio" name="Subscirbe_For" id="Discounts" value="Discounts">
+            <label for="Discounts">Discounts</label>
+            <input type="radio" name="Sub" id="Stock_Updates" value="Stock_Updates">
+            <label for="Stock_Updates">Stock Updates</label>
             <br>
 
             <label for="country">Country:</label>
@@ -127,8 +126,8 @@ rel="stylesheet">
             </select>
             <br>
 
-            <label for="bio">Biography:</label>
-            <textarea name="bio" id="bio" cols="30" rows="2"></textarea>
+            <label for="inquiries">Inquiries:</label>
+            <textarea name="inquiries" id="inquiries" cols="30" rows="2"></textarea>
             <br>
 
             <input type="checkbox" name="subscribe" id="subscribe">
@@ -144,7 +143,7 @@ rel="stylesheet">
     </main>
 
     <footer>
-       <h2>&copy; ManOverboardSite</h2>
+       <h2 id="footer-title">&copy; ManOverboardSite</h2>
        <section>
             <nav>
                 <ul id="footer-ul">
@@ -152,7 +151,6 @@ rel="stylesheet">
                     <li><a href="">Home</a></li>
                     <li><a href="">About Us</a></li>
                     <li><a href="">Contact</a></li>
-                    <li><a href="">Careers</a></li>
                 </div>
                  <div>
                     <li><a href="">Privacy Policy</a></li>
