@@ -60,6 +60,7 @@ body > main article {
 
 #main-content {
    display: flex;
+   align-items: center;
    justify-content: space-around;
 }
 
@@ -105,6 +106,7 @@ body > footer {
 }
 
 #images_purchasing {
+   display: flex;
    align-items: center;
    justify-content: space-around;
    padding: 5px; 
@@ -112,4 +114,24 @@ body > footer {
 
 #social-media {
    align-items: right;
+}
+
+.container {
+   position: relative;
+   text-align: center;
+   color: black;
+   font-size: 30px;
+}
+
+.centered {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform:translate(-50%, -50%);
+}
+
+.responsive {
+   width: 100%;
+   height: auto;
+   border-radius: 5%;
 }
